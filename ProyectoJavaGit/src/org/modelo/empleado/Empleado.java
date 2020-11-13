@@ -5,6 +5,11 @@ public class Empleado {
 	private int id;
 	private String nombre;
 	private double salario;
+		
+	public Empleado() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 	public int getId() {
 		return id;
